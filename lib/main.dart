@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'ui_widgets/section_title.dart';
 import 'ui_widgets/album_section.dart';
 import 'ui_widgets/dog_section.dart';
+import 'ui_widgets/meow_section.dart';
 import 'ui_widgets/space_news_section.dart';
 
 void main() => runApp(const MyApp());
@@ -24,6 +25,10 @@ class MyApp extends StatelessWidget {
 
             SectionTitle('🐶 Dog Fact'),
             DogSection(),
+            Divider(height: 32),
+
+            SectionTitle('🐱 Meow Fact'),
+            MeowSection(),
             Divider(height: 32),
 
             SectionTitle('🛰️ Space News'),
